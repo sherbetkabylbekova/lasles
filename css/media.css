@@ -77,7 +77,7 @@
 
     .choose__box {
         border: 1px solid #DDDDDD;
-        padding: 31px 40px 31px 40px;
+        padding: 31px 10px 31px 10px;
     }
 
     .choose__use-desc {
@@ -250,12 +250,12 @@
 
     .user__button {
         line-height: 15px;
-        padding: 10px 39px;
+        padding: 10px 25px;
         font-size: 12px;
     }
 
     .about__content {
-        padding: 50px 30px 50px 30px;
+        padding: 50px 0 50px 0;
     }
 
     .about__title {
@@ -407,7 +407,7 @@
 @media (max-width: 768px) {
     /*481 - 768*/
     .container {
-        width: 450px;
+        width: 470px;
     }
 
     .user__title {
@@ -590,7 +590,7 @@
 @media (max-width: 480px) {
     /*320 - 480*/
     .container {
-        width: 300px;
+        width: 310px;
     }
 
     .user__title {
@@ -671,5 +671,8 @@
 
     .user__desc {
         margin: 20px 0 20px;
+    }
+    .user {
+        padding: 31px 0;
     }
 }
